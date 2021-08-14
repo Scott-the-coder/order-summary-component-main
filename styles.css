@@ -1,0 +1,127 @@
+body{
+    font-family:  'Red Hat Display', sans-serif;
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    margin: 0;
+    min-height: 100%;
+}
+
+html{
+  height: 100%;
+}
+
+footer{
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+h2{
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  padding-top: 1rem;
+}
+
+
+p, span{
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 10px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight:  900;
+  color: white;
+  font-size: 18px;
+  background: hsl(245, 75%, 52%);
+  padding: 20px 50px 20px 50px;
+  text-decoration: none;
+  border: none;
+  margin: 0 1.5rem 0.8rem 1.5rem;
+  display: inline-block;
+  box-shadow: 0 20px 25px hsl(245, 75%, 90%);
+}
+
+.btn:hover {
+  background: hsl(245, 75%, 70%);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cancel:hover {
+  cursor: pointer;
+  color: hsl(223, 47%, 23%);
+}
+
+.description{
+  margin: 0 2.5rem 0 2.5rem;
+}
+
+.hero{
+  border-radius: 1rem 1rem 0 0;
+}
+
+.cancel{
+  margin: 2rem;
+  font-weight: 700;
+}
+
+.plan-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  background-color: hsl(225, 100%, 98%);
+  margin: 2rem;
+  border-radius: 0.8rem;
+}
+
+.plan-title{
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.main-container{
+  height: 100vh;
+  display: flex;
+  align-content: center;
+}
+
+.annual-plan, .icon, .change{
+  margin: auto ;
+}
+
+.change{
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 21.875rem;
+  background-color: white;
+  border-radius: 1rem;
+  margin: auto;
+}
+
+@media (min-width: 900px){
+  .card-container{
+    width: 24rem;}
+  body{
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%)
+  }
+}
